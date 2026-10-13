@@ -1,4 +1,4 @@
-/* ===== Google Fonts & Modern Variables ===== */
+/* ===== Google Fonts & Variabel Modern ===== */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root {
@@ -124,7 +124,7 @@ section h2 {
   letter-spacing: -0.02em;
 }
 
-/* ===== Dashboard Summary Cards (CSS Grid) ===== */
+/* ===== Kartu dasbor ringkasan (CSS Grid) ===== */
 .dashboard-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -175,7 +175,7 @@ section h2 {
   line-height: 1;
 }
 
-/* ===== Search Box ===== */
+/* ===== Pencarian ===== */
 .search-box {
   display: flex;
   flex-direction: column;
@@ -206,7 +206,7 @@ section h2 {
   background-color: #fff;
 }
 
-/* ===== Tables ===== */
+/* ===== Tabel ===== */
 .table-responsive {
   overflow-x: auto;
   border: 1px solid var(--border-color);
@@ -248,7 +248,7 @@ tbody tr:hover {
   background-color: #f8fafc;
 }
 
-/* Action Buttons inside Table */
+/* Tombol di tabel */
 td button {
   padding: 0.4rem 0.8rem;
   font-size: 0.8rem;
@@ -278,7 +278,7 @@ td button:not(.btn-hapus):hover {
   background-color: #fca5a5;
 }
 
-/* ===== Form Styling ===== */
+/* ===== Penataan Formulir ===== */
 form {
   max-width: 520px;
 }
@@ -346,7 +346,7 @@ form button[type="submit"]:active {
   font-weight: 500;
 }
 
-/* Loading Indicator */
+/* Loading */
 #loading-indicator {
   font-size: 0.9rem;
   color: var(--text-secondary);
@@ -365,7 +365,7 @@ footer {
   margin-top: auto;
 }
 
-/* ===== Responsive Mobile Navigation ===== */
+/* ===== Navigasi Responsif ===== */
 @media (max-width: 768px) {
   header {
     flex-wrap: wrap;
